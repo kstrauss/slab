@@ -5,7 +5,7 @@ using System.ComponentModel;
 using System.Configuration;
 using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
-using System.Diagnostics.Tracing;
+using Microsoft.Diagnostics.Tracing;
 using System.IO;
 using System.ServiceProcess;
 using System.Text;

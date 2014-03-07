@@ -3,7 +3,7 @@
 using System;
 using System.Collections.ObjectModel;
 using System.Diagnostics.CodeAnalysis;
-using System.Diagnostics.Tracing;
+using Microsoft.Diagnostics.Tracing;
 using System.Globalization;
 using System.Linq;
 using System.Linq.Expressions;

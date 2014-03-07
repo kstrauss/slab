@@ -1,20 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata schemaVersion="2">
-    <id>EnterpriseLibrary.SemanticLogging.Database</id>
+    <id>EventSourceSynced.EnterpriseLibrary.SemanticLogging.Database</id>
     <version>$Microsoft_Practices_EnterpriseLibrary_SemanticLogging_Database_Version$</version>
-    <title>Semantic Logging Application Block - SQL Server Sink (PRE-RELEASE)</title>
-    <authors>Microsoft</authors>
-    <owners>Microsoft; patterns-and-practices</owners>
+    <title>Semantic Logging Application Block - SQL Server Sink (Unofficial)</title>
+    <authors>colinbowern</authors>
+    <owners>colinbowern</owners>
     <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
-    <projectUrl>http://slab.codeplex.com</projectUrl>
+    <projectUrl>https://github.com/colinbowern/slab</projectUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <summary>The Semantic Logging Application Block provides a set of destinations to persist events published by a subclass of EventSource.</summary>
-    <description>The Semantic Logging Application Block provides a set of destinations to persist events published by a subclass of EventSource, This add-on packages adds support to persisting log entries in SQL Server and Windows Azure SQL Database.</description>
-   <copyright>© 2013 Microsoft Corporation</copyright>
-   <tags>entlib entlib6 slab enterprise library ETW semantic logging EventSource event listener structured strongly-typed block sink SQL database table futures OSS</tags>
+    <summary>This package is synced with the Microsoft.Diagnostics.Tracing.EventSource package. The Semantic Logging Application Block provides a set of destinations to persist events published by a subclass of EventSource.</summary>
+    <description>
+      This package is synced with the Microsoft.Diagnostics.Tracing.EventSource package.
+
+      The Semantic Logging Application Block provides a set of destinations to persist events published by a subclass of EventSource, This add-on packages adds support to persisting log entries in SQL Server and Windows Azure SQL Database.
+    </description>
+    <copyright>© 2013 Microsoft Corporation</copyright>
+    <tags>entlib entlib6 slab enterprise library ETW semantic logging EventSource event listener structured strongly-typed block sink SQL database table futures OSS</tags>
     <dependencies>
       <dependency id="EnterpriseLibrary.SemanticLogging" version="$Microsoft_Practices_EnterpriseLibrary_SemanticLogging_Version$" />
+      <dependency id="Microsoft.Diagnostics.Tracing.EventSource" version="1.0.16" />
     </dependencies>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.5" />
